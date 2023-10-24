@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">QuienJuega</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="quien_juega">¿QUIÉN JUEGA?</string>
+    <string name="contrasenna">Contraseña:</string>
+    <string name="nombre_de_usuario">Nombre de usuario:</string>
+    <string name="iniciar_sesion">Iniciar Sesión</string>
+    <string name="Lo_primero">Lo primero...</string>
+    <string name="Vamos_a_conocernos">Vamos a conocernos</string>
+    <string name="nombre">Nombre:</string>
+    <string name="apellidos">Apellidos:</string>
+    <string name="correo_electronico">Correo electrónico:</string>
+    <string name="fecha_nacimiento">Fecha de nacimiento:</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="repita_contrasenna">Repita la contraseña:</string>
+    <string name="volver">Volver</string>
+    <string name="Edita_tu_perfil">Edita tu perfil:</string>
+    <string name="quien_eres">Cuéntanos. ¿Quién eres?</string>
+    <string name="descripcion">Añade una descripción:</string>
+    <string name="cuadro_descripcion">Escribe algo sobre ti, tus gustos &#xA;de juegos, cuánto juegas...</string>
+    <string name="selecciona_juegos">Selecciona 4 juegos:</string>
+    <string name="disfruta">¡Disfruta!</string>
+    <string name="selecciona_imagen">SELECCIONA UNA IMAGEN DE PERFIL</string>
+    <string name="pref_datos">datos</string>
+    <string name="borrar_preferencias">BORRAR PREFERENCIAS</string>
+    <string name="textview">TextView</string>
+    <string name="email">Email</string>
+    <string name="registrate">Regístrate</string>
+    <string name="google">Google</string>
+    <string name="title_activity_splash">SplashActivity</string>
+</resources>

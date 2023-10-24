@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Tema de la aplicacion -->
+
+    <!-- En "style" usamos 'NoActionBar' para que no aparezca la barra de arriba en
+     la que aparece el nombre de la app -->
+
+    <style name="Theme.QuienJuega" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorPrimaryVariant">@color/orange_light</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/orange</item>
+        <item name="colorSecondaryVariant">@color/orange_light</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- Estilo que usaremos para el menu y sus iconos -->
+
+    <style name="BottomNavigation">
+        <item name="android:background">@color/orange_light</item>
+        <item name="itemIconTint">#EDB4FC</item>
+        <item name="itemTextColor">#EDB4FC</item>
+    </style>
+
+</resources>

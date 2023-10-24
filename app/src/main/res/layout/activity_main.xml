@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Cuando cambiemos entre Fragmentos, esta es la vista que va a contenerlos -->
+    <FrameLayout
+        android:id="@+id/frame_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:background="#72EDB4FC"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+    <!-- Especificamos las caracteristicas de nuestro menu, usando
+      el que habiamos creado, "bottom_navigation" -->
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:elevation="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:menu="@menu/bottom_navigation"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        app:labelVisibilityMode="selected"
+        style="@style/BottomNavigation"/>
+
+    <!--- El atributo "menu" indica como va a ser el menu (numero de elementos
+    que va a tener, nombre de los mismos, iconos, ...), y este esta definido
+    en "menu > bottom_navigation" -->
+
+    <!--- El atributo  alignParentBottom es para que se situe en la zona inferior-->
+
+
+</RelativeLayout>

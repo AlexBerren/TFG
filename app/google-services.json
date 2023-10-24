@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "874171549825",
+    "project_id": "quienjuega-loszorros",
+    "storage_bucket": "quienjuega-loszorros.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:874171549825:android:54c70d15ee2754b7482580",
+        "android_client_info": {
+          "package_name": "com.loszorros.quienjuega"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "874171549825-oo2sjaql647esehir29i6dsbq45vtkdb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWQL90d0uL0EmISoNWFhPb5IjBULPyD8M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "874171549825-oo2sjaql647esehir29i6dsbq45vtkdb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

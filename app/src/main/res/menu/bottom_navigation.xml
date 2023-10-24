@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <!-- Crecion de un Menu por defecto con sus componentes (5 botones) -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/firstFragment"
+        android:icon="@drawable/casa"
+        android:fontFamily="@font/quicksand_bold"
+        android:title="INICIO"/>
+
+    <item
+        android:id="@+id/secondFragment"
+        android:icon="@drawable/lupa"
+        android:fontFamily="@font/quicksand_bold"
+        android:title="BUSCAR"/>
+
+    <item
+        android:id="@+id/thirdFragment"
+        android:icon="@drawable/ubicacion"
+        android:fontFamily="@font/quicksand_bold"
+        android:title="PARTIDAS"/>
+
+    <item
+        android:id="@+id/fourthFragment"
+        android:icon="@drawable/chat"
+        android:fontFamily="@font/quicksand_bold"
+        android:title="CHAT"/>
+
+    <item
+        android:id="@+id/fifthFragment"
+        android:icon="@drawable/usuario"
+        android:fontFamily="@font/quicksand_bold"
+        android:title="PERFIL"/>
+</menu>
